@@ -54,7 +54,7 @@ export default function Alert() {
           <input type="number" defaultValue={5} /> %
         </div>
         <div className="config-row">
-          <label>Response Time Threshold</label>
+          <label>Response Time Thresholds</label>
           <input type="number" defaultValue={3} /> seconds
         </div>
         <div className="config-row">
