@@ -1,0 +1,5602 @@
+[
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:00Z",
+    "details": {}
+  },
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:02.399621Z",
+    "details": {}
+  },
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:03.954122Z",
+    "details": {}
+  },
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:05.231852Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:07.432466Z",
+    "details": {
+      "score": 8.9885
+    }
+  },
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:08.065376Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:09.833260Z",
+    "details": {}
+  },
+  {
+    "task_id": "180c5079-6fc4-4741-b12a-3c601ee248af",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:11.173521Z",
+    "details": {}
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:01.489888Z",
+    "details": {}
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:02.625063Z",
+    "details": {}
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:04.365495Z",
+    "details": {}
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:04.882306Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:06.558993Z",
+    "details": {
+      "score": 8.8141
+    }
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:08.162805Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:10.264543Z",
+    "details": {}
+  },
+  {
+    "task_id": "be0513d6-bef8-4e0c-b475-6550f46657b5",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:12.187905Z",
+    "details": {}
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:05.154209Z",
+    "details": {}
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:05.958609Z",
+    "details": {}
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:07.804492Z",
+    "details": {}
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:08.919620Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:09.724862Z",
+    "details": {
+      "score": 8.7134
+    }
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:12.178633Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:14.413299Z",
+    "details": {}
+  },
+  {
+    "task_id": "ea720473-dbe0-4d51-b9ab-cc1273192669",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:15.494705Z",
+    "details": {}
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:07.880832Z",
+    "details": {}
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:09.903336Z",
+    "details": {}
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:11.742254Z",
+    "details": {}
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:13.846840Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:15.532857Z",
+    "details": {
+      "score": 9.2326
+    }
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:17.596639Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:18.365112Z",
+    "details": {}
+  },
+  {
+    "task_id": "e8eb32ff-f903-4a50-a774-a16623bf4582",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:19.141124Z",
+    "details": {}
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:10.226224Z",
+    "details": {}
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:11.386281Z",
+    "details": {}
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:13.421836Z",
+    "details": {}
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:14.217357Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:15.139341Z",
+    "details": {
+      "score": 8.8463
+    }
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:17.551365Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:19.007238Z",
+    "details": {}
+  },
+  {
+    "task_id": "3ef622d6-1b8d-4b11-8929-91eced50d4f4",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:19.774506Z",
+    "details": {}
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:14.744306Z",
+    "details": {}
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:16.837780Z",
+    "details": {}
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:18.188828Z",
+    "details": {}
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:20.374613Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:21.521288Z",
+    "details": {
+      "score": 8.8296
+    }
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:23.753299Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:24.691523Z",
+    "details": {}
+  },
+  {
+    "task_id": "6021d250-ae45-4a79-990d-c3120c687b06",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:25.826235Z",
+    "details": {}
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:17.973202Z",
+    "details": {}
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:18.744022Z",
+    "details": {}
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:20.366362Z",
+    "details": {}
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:21.544061Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:22.522401Z",
+    "details": {
+      "score": 9.413
+    }
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:24.965801Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:26.784729Z",
+    "details": {}
+  },
+  {
+    "task_id": "973c16a2-0a02-4b6c-86a9-42b1287d15f0",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:28.612318Z",
+    "details": {}
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:22.416889Z",
+    "details": {}
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:23.140206Z",
+    "details": {}
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:23.697040Z",
+    "details": {}
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:25.106139Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:27.164091Z",
+    "details": {
+      "score": 9.0884
+    }
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:28.937798Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:30.450858Z",
+    "details": {}
+  },
+  {
+    "task_id": "27721911-9d28-4a7d-ad5b-4a4495ad7d5e",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:31.189812Z",
+    "details": {}
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:24.630365Z",
+    "details": {}
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:25.629326Z",
+    "details": {}
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:27.155435Z",
+    "details": {}
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:28.018538Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:30.286542Z",
+    "details": {
+      "score": 8.7732
+    }
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:31.356635Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:32.842024Z",
+    "details": {}
+  },
+  {
+    "task_id": "40266719-8315-4a6e-a95c-b1341198c252",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:33.559724Z",
+    "details": {}
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:29.497600Z",
+    "details": {}
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:30.111971Z",
+    "details": {}
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:31.462566Z",
+    "details": {}
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:33.312248Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:35.023955Z",
+    "details": {
+      "score": 8.8273
+    }
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:35.856810Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:37.137482Z",
+    "details": {}
+  },
+  {
+    "task_id": "51ae13b9-4d19-498b-a0de-9e3fc774cc5c",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:37.640698Z",
+    "details": {}
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:31.310305Z",
+    "details": {}
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:32.612582Z",
+    "details": {}
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:33.579731Z",
+    "details": {}
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:35.656792Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:36.923242Z",
+    "details": {
+      "score": 8.7466
+    }
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:38.336641Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:40.487453Z",
+    "details": {}
+  },
+  {
+    "task_id": "c3fd809d-14a8-4780-a3c8-aec63110c07e",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:41.697756Z",
+    "details": {}
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:36.249659Z",
+    "details": {}
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:37.507412Z",
+    "details": {}
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:38.273627Z",
+    "details": {}
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:39.744618Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:41.237238Z",
+    "details": {
+      "score": 8.582
+    }
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:42.531987Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:43.709804Z",
+    "details": {}
+  },
+  {
+    "task_id": "839a5be7-6f20-4381-8d1f-06217f76fa42",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:44.749917Z",
+    "details": {}
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:39.683927Z",
+    "details": {}
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:40.293029Z",
+    "details": {}
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:41.864880Z",
+    "details": {}
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:42.591729Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:43.164676Z",
+    "details": {
+      "score": 9.1919
+    }
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:43.837236Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:46.088263Z",
+    "details": {}
+  },
+  {
+    "task_id": "44516560-de97-4a81-b699-4c7525ad5078",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:47.977998Z",
+    "details": {}
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:44.357220Z",
+    "details": {}
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:45.246108Z",
+    "details": {}
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:47.503159Z",
+    "details": {}
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:49.203321Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:50.224749Z",
+    "details": {
+      "score": 8.6037
+    }
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:51.737822Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:54.212046Z",
+    "details": {}
+  },
+  {
+    "task_id": "26b2b01e-2246-49ac-8671-021dfe2ded25",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:55.559364Z",
+    "details": {}
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:45.932877Z",
+    "details": {}
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:47.021675Z",
+    "details": {}
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:48.151021Z",
+    "details": {}
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:49.809959Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:52.003504Z",
+    "details": {
+      "score": 9.3362
+    }
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:52.766780Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:54.104860Z",
+    "details": {}
+  },
+  {
+    "task_id": "94451594-330f-4d57-986d-c3b97a7eac49",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:55.859875Z",
+    "details": {}
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:47.710724Z",
+    "details": {}
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:48.915849Z",
+    "details": {}
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:50.531277Z",
+    "details": {}
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:51.929684Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:54.016591Z",
+    "details": {
+      "score": 9.0523
+    }
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:55.270779Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:00:57.404950Z",
+    "details": {}
+  },
+  {
+    "task_id": "a8132367-0c74-49b7-bb89-2456b42df42f",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:00:58.597864Z",
+    "details": {}
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:52.291670Z",
+    "details": {}
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:54.219452Z",
+    "details": {}
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:55.927607Z",
+    "details": {}
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:00:56.431086Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:00:57.475207Z",
+    "details": {
+      "score": 9.2517
+    }
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:00:59.092443Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:01.379836Z",
+    "details": {}
+  },
+  {
+    "task_id": "513b3e1f-d9ca-41d7-801a-4e57076d298b",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:03.869851Z",
+    "details": {}
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:55.425356Z",
+    "details": {}
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:57.295730Z",
+    "details": {}
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:59.129633Z",
+    "details": {}
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:00.110334Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:00.959961Z",
+    "details": {
+      "score": 9.2237
+    }
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:02.214723Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:02.789195Z",
+    "details": {}
+  },
+  {
+    "task_id": "cf16b0e5-2fa9-4e38-9d19-1d15634d421a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:04.946308Z",
+    "details": {}
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:00:57.482183Z",
+    "details": {}
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:00:57.985360Z",
+    "details": {}
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:00:58.934611Z",
+    "details": {}
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:00.923215Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:02.936998Z",
+    "details": {
+      "score": 9.1236
+    }
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:04.327498Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:04.966322Z",
+    "details": {}
+  },
+  {
+    "task_id": "01d4847a-67d0-4efd-a88b-5de45580f8db",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:06.482585Z",
+    "details": {}
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:02.140669Z",
+    "details": {}
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:02.698517Z",
+    "details": {}
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:04.473651Z",
+    "details": {}
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:05.669317Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:07.624835Z",
+    "details": {
+      "score": 8.796
+    }
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:09.930155Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:11.868115Z",
+    "details": {}
+  },
+  {
+    "task_id": "58dde613-8ebd-47a3-aa77-c13796cdfdcf",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:13.818240Z",
+    "details": {}
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:06.444165Z",
+    "details": {}
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:07.246156Z",
+    "details": {}
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:08.886098Z",
+    "details": {}
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:11.182009Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:13.426499Z",
+    "details": {
+      "score": 9.4456
+    }
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:14.229691Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:15.485188Z",
+    "details": {}
+  },
+  {
+    "task_id": "f15655eb-fb91-4456-a9b2-a17b9067e992",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:17.075832Z",
+    "details": {}
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:08.839793Z",
+    "details": {}
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:10.750253Z",
+    "details": {}
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:12.583300Z",
+    "details": {}
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:14.892274Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:15.708818Z",
+    "details": {
+      "score": 8.7684
+    }
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:17.332403Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:18.478168Z",
+    "details": {}
+  },
+  {
+    "task_id": "0468020d-c58a-45db-a9e6-6e950d02337a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:20.148573Z",
+    "details": {}
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:12.406334Z",
+    "details": {}
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:14.613188Z",
+    "details": {}
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:16.171841Z",
+    "details": {}
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:18.026028Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:19.740997Z",
+    "details": {
+      "score": 9.4078
+    }
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:21.700813Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:22.717670Z",
+    "details": {}
+  },
+  {
+    "task_id": "0a7f5b0d-374d-4d7f-9ece-162461cb258f",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:24.630175Z",
+    "details": {}
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:16.927561Z",
+    "details": {}
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:19.030398Z",
+    "details": {}
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:20.672960Z",
+    "details": {}
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:22.565731Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:23.345421Z",
+    "details": {
+      "score": 8.6284
+    }
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:25.264914Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:26.607260Z",
+    "details": {}
+  },
+  {
+    "task_id": "966e9c0f-abea-4dde-9fd0-16df95bc023b",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:27.127360Z",
+    "details": {}
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:18.118482Z",
+    "details": {}
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:18.822821Z",
+    "details": {}
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:20.293905Z",
+    "details": {}
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:22.606943Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:24.202809Z",
+    "details": {
+      "score": 9.3496
+    }
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:25.998165Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:27.992967Z",
+    "details": {}
+  },
+  {
+    "task_id": "c12d72a5-236f-462c-8d72-6f2466bfc107",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:28.705301Z",
+    "details": {}
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:20.619464Z",
+    "details": {}
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:21.281982Z",
+    "details": {}
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:23.516463Z",
+    "details": {}
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:24.982516Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:27.327973Z",
+    "details": {
+      "score": 9.2362
+    }
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:28.129738Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:29.402444Z",
+    "details": {}
+  },
+  {
+    "task_id": "052458af-19f0-4fdc-8bc2-86dd6c9df0a7",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:31.151893Z",
+    "details": {}
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:24.312714Z",
+    "details": {}
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:25.201044Z",
+    "details": {}
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:26.546189Z",
+    "details": {}
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:27.539955Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:29.671987Z",
+    "details": {
+      "score": 8.9609
+    }
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:31.679495Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:33.769014Z",
+    "details": {}
+  },
+  {
+    "task_id": "482d7117-2460-4e05-96ef-0c6c086621b0",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:35.990307Z",
+    "details": {}
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:28.259724Z",
+    "details": {}
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:29.036994Z",
+    "details": {}
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:30.518081Z",
+    "details": {}
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:32.945152Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:33.609045Z",
+    "details": {
+      "score": 8.8016
+    }
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:34.436319Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:35.889438Z",
+    "details": {}
+  },
+  {
+    "task_id": "f2d1a7b4-21ad-43bd-bf2b-18d3a55d8ab5",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:36.952216Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:30.762960Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:33.126188Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:35.303804Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:36.324157Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:38.206978Z",
+    "details": {
+      "score": 8.9546
+    }
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:39.114116Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:40.711124Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b127d4c-5f68-4763-8fe5-d218cfcb60c4",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:41.403981Z",
+    "details": {}
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:32.346672Z",
+    "details": {}
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:33.640723Z",
+    "details": {}
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:34.691927Z",
+    "details": {}
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:36.686634Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:37.543214Z",
+    "details": {
+      "score": 8.7356
+    }
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:38.625886Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:39.606445Z",
+    "details": {}
+  },
+  {
+    "task_id": "c903a36e-87b2-4592-a541-5e04bc5e4895",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:40.884361Z",
+    "details": {}
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:33.882437Z",
+    "details": {}
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:35.171025Z",
+    "details": {}
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:37.447006Z",
+    "details": {}
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:39.911400Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:41.851304Z",
+    "details": {
+      "score": 9.139
+    }
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:44.262447Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:45.594646Z",
+    "details": {}
+  },
+  {
+    "task_id": "37be6f3f-42cd-4b2e-bb2d-f08357cbbf61",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:46.691631Z",
+    "details": {}
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:37.091488Z",
+    "details": {}
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:37.605405Z",
+    "details": {}
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:39.938136Z",
+    "details": {}
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:41.859118Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:42.394745Z",
+    "details": {
+      "score": 8.9031
+    }
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:43.304307Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:45.763151Z",
+    "details": {}
+  },
+  {
+    "task_id": "efbfa01a-00d4-4065-bc72-eba7af9bfaab",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:47.797049Z",
+    "details": {}
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:41.890046Z",
+    "details": {}
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:43.744365Z",
+    "details": {}
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:44.275380Z",
+    "details": {}
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:46.160647Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:47.385523Z",
+    "details": {
+      "score": 8.9676
+    }
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:49.432917Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:50.874678Z",
+    "details": {}
+  },
+  {
+    "task_id": "b9b8d9a7-e445-4a40-97a6-0b6c8badc820",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:52.823021Z",
+    "details": {}
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:45.752035Z",
+    "details": {}
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:48.150495Z",
+    "details": {}
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:49.010756Z",
+    "details": {}
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:49.588974Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:51.156535Z",
+    "details": {
+      "score": 8.8516
+    }
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:52.326297Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:53.669004Z",
+    "details": {}
+  },
+  {
+    "task_id": "4989c456-f092-4681-9159-e7a50e8cf9d9",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:54.894878Z",
+    "details": {}
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:47.016959Z",
+    "details": {}
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:48.537402Z",
+    "details": {}
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:50.756529Z",
+    "details": {}
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:52.877009Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:53.745117Z",
+    "details": {
+      "score": 9.0253
+    }
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:55.818684Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:57.556378Z",
+    "details": {}
+  },
+  {
+    "task_id": "d220227f-4ea7-4b92-ad97-7c5cd9ab71b1",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:01:58.780395Z",
+    "details": {}
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:51.361779Z",
+    "details": {}
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:53.341692Z",
+    "details": {}
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:54.712826Z",
+    "details": {}
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:55.369739Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:57.063550Z",
+    "details": {
+      "score": 9.1274
+    }
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:57.962212Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:01:59.408095Z",
+    "details": {}
+  },
+  {
+    "task_id": "88dbaec9-e391-456e-aa46-6a06761c7208",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:00.129374Z",
+    "details": {}
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:52.878122Z",
+    "details": {}
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:54.270202Z",
+    "details": {}
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:01:55.107742Z",
+    "details": {}
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:01:57.236733Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:01:58.309249Z",
+    "details": {
+      "score": 9.0299
+    }
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:01:58.998380Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:00.535314Z",
+    "details": {}
+  },
+  {
+    "task_id": "aa6399bb-fd36-407d-ac8a-d1ad219d9439",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:02.289150Z",
+    "details": {}
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:57.099366Z",
+    "details": {}
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:01:58.491953Z",
+    "details": {}
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:00.338767Z",
+    "details": {}
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:02.266609Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:04.198321Z",
+    "details": {
+      "score": 9.0371
+    }
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:05.846352Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:06.811541Z",
+    "details": {}
+  },
+  {
+    "task_id": "60f3e7ca-73e2-4879-aa45-f94e3f0caa0b",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:07.587521Z",
+    "details": {}
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:01:59.868673Z",
+    "details": {}
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:00.463351Z",
+    "details": {}
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:01.852854Z",
+    "details": {}
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:03.877860Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:05.439759Z",
+    "details": {
+      "score": 8.6604
+    }
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:06.057642Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:07.988858Z",
+    "details": {}
+  },
+  {
+    "task_id": "472e85ac-8a25-48ca-b23b-fcc995e9de4d",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:10.359363Z",
+    "details": {}
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:02.596864Z",
+    "details": {}
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:03.809200Z",
+    "details": {}
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:05.645400Z",
+    "details": {}
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:07.755300Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:09.048092Z",
+    "details": {
+      "score": 8.9874
+    }
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:09.725085Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:10.575681Z",
+    "details": {}
+  },
+  {
+    "task_id": "4a522365-2de2-45be-8964-3cb9dfbcd77e",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:12.761918Z",
+    "details": {}
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:04.174236Z",
+    "details": {}
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:05.471599Z",
+    "details": {}
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:07.373519Z",
+    "details": {}
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:09.574001Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:10.784099Z",
+    "details": {
+      "score": 9.1266
+    }
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:11.468599Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:13.165605Z",
+    "details": {}
+  },
+  {
+    "task_id": "3cf28b43-8407-4e3e-8d73-811e4bdcba74",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:15.361167Z",
+    "details": {}
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:05.985223Z",
+    "details": {}
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:07.046544Z",
+    "details": {}
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:08.942346Z",
+    "details": {}
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:10.012493Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:10.863417Z",
+    "details": {
+      "score": 9.3473
+    }
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:12.975310Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:15.155925Z",
+    "details": {}
+  },
+  {
+    "task_id": "78acfa69-ca1d-4890-983e-5854650dd4d0",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:16.321690Z",
+    "details": {}
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:10.936320Z",
+    "details": {}
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:11.944488Z",
+    "details": {}
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:14.052827Z",
+    "details": {}
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:15.033788Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:16.104946Z",
+    "details": {
+      "score": 9.2851
+    }
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:16.625745Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:17.318061Z",
+    "details": {}
+  },
+  {
+    "task_id": "f12be695-c3dc-47f7-b262-495663d85f38",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:18.004088Z",
+    "details": {}
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:12.848829Z",
+    "details": {}
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:14.033509Z",
+    "details": {}
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:16.230769Z",
+    "details": {}
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:17.452582Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:17.975613Z",
+    "details": {
+      "score": 9.0884
+    }
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:20.141322Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:22.109859Z",
+    "details": {}
+  },
+  {
+    "task_id": "556c6d0d-d5a1-4a48-a3ca-7b4a5aafbf09",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:22.984119Z",
+    "details": {}
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:14.775804Z",
+    "details": {}
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:16.908766Z",
+    "details": {}
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:17.836748Z",
+    "details": {}
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:19.013830Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:20.433648Z",
+    "details": {
+      "score": 9.2839
+    }
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:21.342857Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:22.540260Z",
+    "details": {}
+  },
+  {
+    "task_id": "7934fca2-c5f1-4cde-827e-6b7fbee7567e",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:23.790398Z",
+    "details": {}
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:18.674729Z",
+    "details": {}
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:19.630259Z",
+    "details": {}
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:21.959809Z",
+    "details": {}
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:23.966209Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:25.278682Z",
+    "details": {
+      "score": 8.8703
+    }
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:26.051932Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:28.442284Z",
+    "details": {}
+  },
+  {
+    "task_id": "f1dcd8c4-328b-46b9-9e2d-7d54ba9f64c1",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:29.619072Z",
+    "details": {}
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:21.282485Z",
+    "details": {}
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:22.402038Z",
+    "details": {}
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:24.572517Z",
+    "details": {}
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:26.697909Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:28.030402Z",
+    "details": {
+      "score": 9.4458
+    }
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:29.749199Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:30.693432Z",
+    "details": {}
+  },
+  {
+    "task_id": "f66dc28b-5450-430d-b49a-0b240fcd22ce",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:31.708598Z",
+    "details": {}
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:24.066550Z",
+    "details": {}
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:25.953313Z",
+    "details": {}
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:27.839441Z",
+    "details": {}
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:29.697889Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:30.642671Z",
+    "details": {
+      "score": 9.1748
+    }
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:32.150701Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:32.833305Z",
+    "details": {}
+  },
+  {
+    "task_id": "54ccc31e-9b32-4938-b074-3c099a239208",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:34.070800Z",
+    "details": {}
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:26.638962Z",
+    "details": {}
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:27.449538Z",
+    "details": {}
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:28.583945Z",
+    "details": {}
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:29.494352Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:31.090122Z",
+    "details": {
+      "score": 8.7675
+    }
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:32.535024Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:34.771927Z",
+    "details": {}
+  },
+  {
+    "task_id": "6248374c-2545-48f7-a76c-e118e30bb865",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:36.095577Z",
+    "details": {}
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:28.422785Z",
+    "details": {}
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:29.560720Z",
+    "details": {}
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:30.860263Z",
+    "details": {}
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:32.759727Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:34.936417Z",
+    "details": {
+      "score": 9.0503
+    }
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:35.685445Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:36.610131Z",
+    "details": {}
+  },
+  {
+    "task_id": "3feebd73-6882-42a4-b54f-0e7588511229",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:37.909698Z",
+    "details": {}
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:33.363592Z",
+    "details": {}
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:34.529281Z",
+    "details": {}
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:36.718887Z",
+    "details": {}
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:37.319526Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:37.888526Z",
+    "details": {
+      "score": 9.4121
+    }
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:38.603732Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:40.929931Z",
+    "details": {}
+  },
+  {
+    "task_id": "2bc4a2cb-d641-46d2-adbf-f8c5a9827149",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:42.556134Z",
+    "details": {}
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:35.741833Z",
+    "details": {}
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:36.271838Z",
+    "details": {}
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:38.540118Z",
+    "details": {}
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:39.433102Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:41.769591Z",
+    "details": {
+      "score": 9.4209
+    }
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:44.145273Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:46.010839Z",
+    "details": {}
+  },
+  {
+    "task_id": "d02e747d-e9b2-405e-9e64-f0e0f8674f61",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:47.470659Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:40.437305Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:41.256751Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:42.466848Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:43.408240Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:44.967392Z",
+    "details": {
+      "score": 8.684
+    }
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:46.945419Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:48.598137Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6950c19-6d3a-4f20-b1b9-281d056a4b5b",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:50.869624Z",
+    "details": {}
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:42.606642Z",
+    "details": {}
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:43.378429Z",
+    "details": {}
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:45.342369Z",
+    "details": {}
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:46.693269Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:48.784137Z",
+    "details": {
+      "score": 8.7468
+    }
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:49.351940Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:50.656268Z",
+    "details": {}
+  },
+  {
+    "task_id": "971ce180-6bfc-4624-878d-5b2e13041b14",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:51.848733Z",
+    "details": {}
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:47.441253Z",
+    "details": {}
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:49.674263Z",
+    "details": {}
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:51.759879Z",
+    "details": {}
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:53.823631Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:54.642790Z",
+    "details": {
+      "score": 9.0723
+    }
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:55.982242Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:56.510762Z",
+    "details": {}
+  },
+  {
+    "task_id": "de995a53-5012-424e-9f9b-fd67b31680c2",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:02:58.110026Z",
+    "details": {}
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:50.677352Z",
+    "details": {}
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:51.561938Z",
+    "details": {}
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:52.765652Z",
+    "details": {}
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:54.095731Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:55.871155Z",
+    "details": {
+      "score": 8.8583
+    }
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:57.611545Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:59.333200Z",
+    "details": {}
+  },
+  {
+    "task_id": "8f2bcd26-0368-4122-8746-d7f741839fe1",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:00.637373Z",
+    "details": {}
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:52.755967Z",
+    "details": {}
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:54.516839Z",
+    "details": {}
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:02:55.917369Z",
+    "details": {}
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:02:56.612445Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:02:57.174326Z",
+    "details": {
+      "score": 8.9785
+    }
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:02:57.935038Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:02:59.969499Z",
+    "details": {}
+  },
+  {
+    "task_id": "b7ed920a-0424-4276-84e3-39de8d9ee944",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:01.894739Z",
+    "details": {}
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:02:55.986458Z",
+    "details": {}
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:02:58.269679Z",
+    "details": {}
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:00.048786Z",
+    "details": {}
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:01.522145Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:02.440521Z",
+    "details": {
+      "score": 9.1698
+    }
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:04.480760Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:05.003166Z",
+    "details": {}
+  },
+  {
+    "task_id": "197a5ee3-a683-4aab-b199-4df9a0fa0d9b",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:06.557667Z",
+    "details": {}
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:00.765018Z",
+    "details": {}
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:02.526194Z",
+    "details": {}
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:03.419373Z",
+    "details": {}
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:04.625414Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:05.177643Z",
+    "details": {
+      "score": 8.9067
+    }
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:06.344303Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:08.457020Z",
+    "details": {}
+  },
+  {
+    "task_id": "0b3abad2-4fdb-453f-b6dc-4a293c3017ef",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:09.525859Z",
+    "details": {}
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:04.902035Z",
+    "details": {}
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:06.997233Z",
+    "details": {}
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:07.716858Z",
+    "details": {}
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:08.847273Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:09.555767Z",
+    "details": {
+      "score": 9.0384
+    }
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:11.314847Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:11.850765Z",
+    "details": {}
+  },
+  {
+    "task_id": "8d58bad1-c3ec-4c54-844d-f26f7b33f9bd",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:12.682005Z",
+    "details": {}
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:09.040632Z",
+    "details": {}
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:11.087078Z",
+    "details": {}
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:11.891055Z",
+    "details": {}
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:13.429795Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:15.359785Z",
+    "details": {
+      "score": 8.6369
+    }
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:17.067229Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:18.678176Z",
+    "details": {}
+  },
+  {
+    "task_id": "44047ae1-3f2c-4096-9f59-f2e920b8d196",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:19.542808Z",
+    "details": {}
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:13.343848Z",
+    "details": {}
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:14.424255Z",
+    "details": {}
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:15.978659Z",
+    "details": {}
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:16.488303Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:17.116254Z",
+    "details": {
+      "score": 8.9749
+    }
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:18.903389Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:20.056375Z",
+    "details": {}
+  },
+  {
+    "task_id": "a74a4bba-4741-42f5-941a-4b24a469976a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:22.531914Z",
+    "details": {}
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:15.579025Z",
+    "details": {}
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:16.273242Z",
+    "details": {}
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:17.166791Z",
+    "details": {}
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:18.225523Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:20.682171Z",
+    "details": {
+      "score": 8.7888
+    }
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:22.128582Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:22.629606Z",
+    "details": {}
+  },
+  {
+    "task_id": "2d12a84e-4e5b-4be7-acfa-4a9b201fce94",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:23.313396Z",
+    "details": {}
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:17.404076Z",
+    "details": {}
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:19.018823Z",
+    "details": {}
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:20.986858Z",
+    "details": {}
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:22.918810Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:25.325609Z",
+    "details": {
+      "score": 9.0782
+    }
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:26.871167Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:27.661543Z",
+    "details": {}
+  },
+  {
+    "task_id": "86a25578-2f6b-414c-8ac9-2285f96988a6",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:28.500820Z",
+    "details": {}
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:19.771320Z",
+    "details": {}
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:21.961548Z",
+    "details": {}
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:22.538999Z",
+    "details": {}
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:23.182728Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:24.346926Z",
+    "details": {
+      "score": 9.0381
+    }
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:25.817834Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:26.645794Z",
+    "details": {}
+  },
+  {
+    "task_id": "71f655d7-2249-4957-b520-e266470d108a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:28.549713Z",
+    "details": {}
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:23.921601Z",
+    "details": {}
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:24.910174Z",
+    "details": {}
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:26.470243Z",
+    "details": {}
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:28.689014Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:29.422265Z",
+    "details": {
+      "score": 9.4207
+    }
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:30.673905Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:32.782712Z",
+    "details": {}
+  },
+  {
+    "task_id": "1d7f93e6-c1a5-4985-9066-6665b6762656",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:34.245187Z",
+    "details": {}
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:28.497398Z",
+    "details": {}
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:30.032558Z",
+    "details": {}
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:31.043023Z",
+    "details": {}
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:32.304018Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:33.208879Z",
+    "details": {
+      "score": 9.2295
+    }
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:34.388648Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:36.018066Z",
+    "details": {}
+  },
+  {
+    "task_id": "7c51f9d0-5269-451d-aadd-888cc15a56e1",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:36.593956Z",
+    "details": {}
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:31.716633Z",
+    "details": {}
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:32.882186Z",
+    "details": {}
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:34.606803Z",
+    "details": {}
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:36.948665Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:38.172028Z",
+    "details": {
+      "score": 9.4908
+    }
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:39.272849Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:41.150408Z",
+    "details": {}
+  },
+  {
+    "task_id": "37634a0d-4da9-4d35-8787-3e3f4e221dc3",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:43.030933Z",
+    "details": {}
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:34.708179Z",
+    "details": {}
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:35.332826Z",
+    "details": {}
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:36.396402Z",
+    "details": {}
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:38.372954Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:39.945427Z",
+    "details": {
+      "score": 9.3993
+    }
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:41.992833Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:43.123976Z",
+    "details": {}
+  },
+  {
+    "task_id": "e7377386-5cca-4bd8-b32c-6b878d2387c5",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:43.871759Z",
+    "details": {}
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:36.298782Z",
+    "details": {}
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:36.926593Z",
+    "details": {}
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:39.192945Z",
+    "details": {}
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:40.658613Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:42.098145Z",
+    "details": {
+      "score": 9.1646
+    }
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:44.050856Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:45.244417Z",
+    "details": {}
+  },
+  {
+    "task_id": "76db24cb-3b31-4764-9f1d-e6198dfb42f6",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:46.476539Z",
+    "details": {}
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:39.889241Z",
+    "details": {}
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:41.402208Z",
+    "details": {}
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:42.818550Z",
+    "details": {}
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:43.425280Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:44.280605Z",
+    "details": {
+      "score": 8.9627
+    }
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:44.878527Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:46.070342Z",
+    "details": {}
+  },
+  {
+    "task_id": "0fbe1808-38fa-463c-a9e3-10d72fd0da1d",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:48.524216Z",
+    "details": {}
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:42.572369Z",
+    "details": {}
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:44.527769Z",
+    "details": {}
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:46.038238Z",
+    "details": {}
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:47.773513Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:50.069227Z",
+    "details": {
+      "score": 8.9106
+    }
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:52.508402Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:54.698270Z",
+    "details": {}
+  },
+  {
+    "task_id": "ab1bfcbc-c10c-4529-9f72-67dca1ac6807",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:56.907903Z",
+    "details": {}
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:45.143102Z",
+    "details": {}
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:47.518191Z",
+    "details": {}
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:48.087433Z",
+    "details": {}
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:50.231418Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:52.262140Z",
+    "details": {
+      "score": 9.4975
+    }
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:53.950335Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:55.177777Z",
+    "details": {}
+  },
+  {
+    "task_id": "76a9cdf9-af01-462a-93d6-643f8668affa",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:56.718035Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:47.941901Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:50.111137Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:51.026312Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:51.660759Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:52.343034Z",
+    "details": {
+      "score": 8.7182
+    }
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:53.283270Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:03:53.911025Z",
+    "details": {}
+  },
+  {
+    "task_id": "f6cedaa8-9024-415a-ada3-b5de2e22234d",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:03:55.403615Z",
+    "details": {}
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:52.579163Z",
+    "details": {}
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:53.416109Z",
+    "details": {}
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:55.103526Z",
+    "details": {}
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:03:55.876994Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:03:58.184084Z",
+    "details": {
+      "score": 8.8123
+    }
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:03:59.834471Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:00.474621Z",
+    "details": {}
+  },
+  {
+    "task_id": "b650fb7e-eadc-4183-86f8-4d93fcc01caa",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:02.847552Z",
+    "details": {}
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:03:57.217203Z",
+    "details": {}
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:03:57.911546Z",
+    "details": {}
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:03:58.714466Z",
+    "details": {}
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:00.351658Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:01.269481Z",
+    "details": {
+      "score": 9.2538
+    }
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:01.834137Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:03.717955Z",
+    "details": {}
+  },
+  {
+    "task_id": "7a1c8d43-2165-4c68-b72a-4c8de04e38f4",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:05.434352Z",
+    "details": {}
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:01.960894Z",
+    "details": {}
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:02.642454Z",
+    "details": {}
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:03.426958Z",
+    "details": {}
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:04.543505Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:05.337126Z",
+    "details": {
+      "score": 8.7826
+    }
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:06.885027Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:07.395128Z",
+    "details": {}
+  },
+  {
+    "task_id": "55f507a1-ef97-422a-b6ec-25f54fc48429",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:08.241741Z",
+    "details": {}
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:04.115955Z",
+    "details": {}
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:06.273235Z",
+    "details": {}
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:06.995913Z",
+    "details": {}
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:08.742818Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:09.846065Z",
+    "details": {
+      "score": 9.0285
+    }
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:12.222231Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:14.423493Z",
+    "details": {}
+  },
+  {
+    "task_id": "7978fef1-739c-4436-a483-1204935d41c9",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:16.147734Z",
+    "details": {}
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:05.605347Z",
+    "details": {}
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:07.010841Z",
+    "details": {}
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:09.333033Z",
+    "details": {}
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:09.885989Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:11.575800Z",
+    "details": {
+      "score": 8.9525
+    }
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:14.045279Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:14.582857Z",
+    "details": {}
+  },
+  {
+    "task_id": "a746d767-6725-44f4-a06e-f5e0cda16bef",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:16.681844Z",
+    "details": {}
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:07.890381Z",
+    "details": {}
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:09.614916Z",
+    "details": {}
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:11.240752Z",
+    "details": {}
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:13.667306Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:15.120613Z",
+    "details": {
+      "score": 8.9811
+    }
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:17.608862Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:18.200462Z",
+    "details": {}
+  },
+  {
+    "task_id": "f16883f4-e86a-4684-b474-050449521a9a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:20.229359Z",
+    "details": {}
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:10.667616Z",
+    "details": {}
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:12.103925Z",
+    "details": {}
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:12.685779Z",
+    "details": {}
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:13.757502Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:15.737345Z",
+    "details": {
+      "score": 9.1515
+    }
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:17.121171Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:19.146769Z",
+    "details": {}
+  },
+  {
+    "task_id": "10d1cb4d-f49e-4f34-a259-4588fd306941",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:20.595085Z",
+    "details": {}
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:14.971398Z",
+    "details": {}
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:15.931133Z",
+    "details": {}
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:18.051067Z",
+    "details": {}
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:19.690504Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:20.297372Z",
+    "details": {
+      "score": 8.772
+    }
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:21.960438Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:23.889767Z",
+    "details": {}
+  },
+  {
+    "task_id": "0982228d-4b0a-4d05-af91-3462268f349c",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:24.391346Z",
+    "details": {}
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:19.629892Z",
+    "details": {}
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:21.399143Z",
+    "details": {}
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:22.840326Z",
+    "details": {}
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:24.504480Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:25.403951Z",
+    "details": {
+      "score": 8.9517
+    }
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:27.894184Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:30.020674Z",
+    "details": {}
+  },
+  {
+    "task_id": "26a3a22e-8a59-4f43-884b-0f49631d8528",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:32.138430Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:23.321458Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:24.498772Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:26.848852Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:27.598725Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:28.373397Z",
+    "details": {
+      "score": 8.9128
+    }
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:29.004226Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:31.403274Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e3e76b6-8d60-4a8d-80c9-ca0f17225321",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:33.112335Z",
+    "details": {}
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:26.928446Z",
+    "details": {}
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:27.454787Z",
+    "details": {}
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:29.796624Z",
+    "details": {}
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:31.435601Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:32.683353Z",
+    "details": {
+      "score": 9.4204
+    }
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:33.912858Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:35.896150Z",
+    "details": {}
+  },
+  {
+    "task_id": "a9da4033-3047-4f5f-9579-76846bd0139d",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:37.037613Z",
+    "details": {}
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:30.435842Z",
+    "details": {}
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:32.241916Z",
+    "details": {}
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:34.320963Z",
+    "details": {}
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:36.263682Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:37.056738Z",
+    "details": {
+      "score": 9.3876
+    }
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:37.969265Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:39.685437Z",
+    "details": {}
+  },
+  {
+    "task_id": "bec9cf74-a75e-4006-b586-da400d40568a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:40.910513Z",
+    "details": {}
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:33.951666Z",
+    "details": {}
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:35.669075Z",
+    "details": {}
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:37.506249Z",
+    "details": {}
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:38.663587Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:39.235260Z",
+    "details": {
+      "score": 9.247
+    }
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:40.670180Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:42.427952Z",
+    "details": {}
+  },
+  {
+    "task_id": "913040d0-8427-464a-934c-acc59ad04512",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:44.763227Z",
+    "details": {}
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:35.123146Z",
+    "details": {}
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:36.672952Z",
+    "details": {}
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:38.796658Z",
+    "details": {}
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:39.354251Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:40.165728Z",
+    "details": {
+      "score": 8.7318
+    }
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:42.146543Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:42.854664Z",
+    "details": {}
+  },
+  {
+    "task_id": "678105c7-8aff-402e-880e-d66f5eebb551",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:45.319858Z",
+    "details": {}
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:39.699459Z",
+    "details": {}
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:40.491513Z",
+    "details": {}
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:41.359287Z",
+    "details": {}
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:43.193784Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:45.105862Z",
+    "details": {
+      "score": 8.5732
+    }
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:45.885803Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:47.941869Z",
+    "details": {}
+  },
+  {
+    "task_id": "63e9d6d9-43f2-4d3a-b577-a472876c831a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:50.359110Z",
+    "details": {}
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:42.908998Z",
+    "details": {}
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:44.978037Z",
+    "details": {}
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:47.106514Z",
+    "details": {}
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:49.585233Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:51.072740Z",
+    "details": {
+      "score": 8.562
+    }
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:53.531370Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:54.644632Z",
+    "details": {}
+  },
+  {
+    "task_id": "8aa2ebed-8add-4449-99ce-5654fe460b92",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:56.341357Z",
+    "details": {}
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:47.479763Z",
+    "details": {}
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:49.861501Z",
+    "details": {}
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:51.817214Z",
+    "details": {}
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:53.852745Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:54.994826Z",
+    "details": {
+      "score": 8.7517
+    }
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:56.843904Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:58.722960Z",
+    "details": {}
+  },
+  {
+    "task_id": "431f9b5f-f9ca-46d2-90cf-eb0810a3f02d",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:00.177642Z",
+    "details": {}
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:49.396032Z",
+    "details": {}
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:50.311864Z",
+    "details": {}
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:51.629022Z",
+    "details": {}
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:52.532277Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:53.197166Z",
+    "details": {
+      "score": 8.6746
+    }
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:53.753065Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:04:54.843330Z",
+    "details": {}
+  },
+  {
+    "task_id": "009ce759-54c3-4896-be69-6dbf3370cd37",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:04:55.849324Z",
+    "details": {}
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:51.801663Z",
+    "details": {}
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:54.227995Z",
+    "details": {}
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:56.160514Z",
+    "details": {}
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:57.982488Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:59.108128Z",
+    "details": {
+      "score": 8.5997
+    }
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:05:00.134676Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:02.610349Z",
+    "details": {}
+  },
+  {
+    "task_id": "17e42241-2f1a-4f17-9b32-6aad598f9654",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:03.984301Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:53.253637Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:54.643908Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:55.796967Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:04:57.237354Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:04:58.457872Z",
+    "details": {
+      "score": 9.1162
+    }
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:04:59.910339Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:01.599851Z",
+    "details": {}
+  },
+  {
+    "task_id": "9b2c0e97-07fc-416a-923e-631dd1c12ad3",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:03.469720Z",
+    "details": {}
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:56.704322Z",
+    "details": {}
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:04:57.683151Z",
+    "details": {}
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:04:58.734825Z",
+    "details": {}
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:05:01.211040Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:05:03.659504Z",
+    "details": {
+      "score": 8.5632
+    }
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:05:04.908000Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:05.461586Z",
+    "details": {}
+  },
+  {
+    "task_id": "af24d315-b024-4fae-84a0-b269295cc144",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:06.411687Z",
+    "details": {}
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:04:59.795293Z",
+    "details": {}
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:05:01.839510Z",
+    "details": {}
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:05:02.574146Z",
+    "details": {}
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:05:04.570997Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:05:06.538093Z",
+    "details": {
+      "score": 9.178
+    }
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:05:07.895631Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:09.767159Z",
+    "details": {}
+  },
+  {
+    "task_id": "96def3f3-7f46-464a-b474-a277c680da96",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:10.821421Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:05:01.709556Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:05:02.515659Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:05:04.584674Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:05:05.226274Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:05:07.237617Z",
+    "details": {
+      "score": 8.8571
+    }
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:05:08.307570Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:10.354074Z",
+    "details": {}
+  },
+  {
+    "task_id": "8e402420-94c5-41c3-83e1-3e0d40d3137a",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:11.019757Z",
+    "details": {}
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:05:06.589204Z",
+    "details": {}
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:05:07.528264Z",
+    "details": {}
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:05:08.895860Z",
+    "details": {}
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:05:11.369281Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:05:13.452381Z",
+    "details": {
+      "score": 9.2072
+    }
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:05:15.949190Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:18.081424Z",
+    "details": {}
+  },
+  {
+    "task_id": "7fa3e543-2e29-48d9-8140-0fb260304e87",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:20.137970Z",
+    "details": {}
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:05:10.672825Z",
+    "details": {}
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:05:11.894703Z",
+    "details": {}
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:05:14.060228Z",
+    "details": {}
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:05:16.386319Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:05:18.219709Z",
+    "details": {
+      "score": 9.1009
+    }
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:05:20.471201Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:21.735298Z",
+    "details": {}
+  },
+  {
+    "task_id": "94263148-09d5-4228-b165-894e1b1d951b",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:23.352106Z",
+    "details": {}
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "job_submitted",
+    "timestamp": "2025-07-16T09:05:14.522792Z",
+    "details": {}
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "job_started",
+    "timestamp": "2025-07-16T09:05:16.762092Z",
+    "details": {}
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "job_processing_started",
+    "timestamp": "2025-07-16T09:05:18.557211Z",
+    "details": {}
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "face_liveness_checked",
+    "timestamp": "2025-07-16T09:05:20.246340Z",
+    "details": {
+      "liveness": true
+    }
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "face_verified",
+    "timestamp": "2025-07-16T09:05:21.102878Z",
+    "details": {
+      "score": 9.3524
+    }
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "mrz_parsed",
+    "timestamp": "2025-07-16T09:05:22.956998Z",
+    "details": {
+      "mrz_data": {
+        "error": "MRZ extraction failed. Please ensure the ID card is clearly visible and well-lit."
+      }
+    }
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "job_processed_successfully",
+    "timestamp": "2025-07-16T09:05:24.928337Z",
+    "details": {}
+  },
+  {
+    "task_id": "4aa7ab9b-6dcb-4e9a-8752-8acfe2f4c419",
+    "event": "job_completed",
+    "timestamp": "2025-07-16T09:05:25.583273Z",
+    "details": {}
+  }
+]

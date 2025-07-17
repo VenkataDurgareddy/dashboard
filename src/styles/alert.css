@@ -1,0 +1,158 @@
+/* styles/alert.css */
+
+.alert-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.alert-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  flex: 1;
+  min-width: 360px;
+  max-width: 700px;
+  margin-left: 100px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.section-subtitle {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.alert-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  margin-bottom: 12px;
+}
+
+.alert-content {
+  display: flex;
+  gap: 12px;
+}
+
+.alert-icon {
+  font-size: 1.2rem;
+  margin-top: 4px;
+  color: #f87171;
+}
+
+.alert-title {
+  font-weight: 600;
+}
+
+.alert-description {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.alert-time {
+  font-size: 0.875rem;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.config-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  gap: 10px;
+}
+
+.config-row input {
+  width: 60px;
+  padding: 6px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.update-btn-alert {
+  background-color: #111;
+  color: white;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.update-btn-alert:hover {
+  background-color: #000;
+}
+
+.gear-icon {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .alert-container {
+    padding: 0 12px;
+  }
+
+  .alert-card {
+    padding: 16px;
+    min-width: 100%;
+    margin: 0;
+  }
+
+  .alert-box {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .alert-time {
+    margin-left: 0;
+    text-align: right;
+    width: 100%;
+  }
+
+  .config-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .update-btn-alert {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .alert-description,
+  .alert-time {
+    font-size: 0.8rem;
+  }
+}
