@@ -18,13 +18,19 @@ export default function AnalyticsTabs({ tab, setTab }) {
     <Box className="tabs-container" mt={3}>
       {!isMobile ? (
         <Tabs
-          value={tab} // 👈 this is the current index
+          value={tab}
           onChange={(_, newIndex) => setTab(newIndex)}
           TabIndicatorProps={{ style: { display: "none" } }}
           className="custom-tabs"
+          data-value={tab}
         >
           {tabLabels.map((label, index) => (
-            <Tab key={index} label={label} className="custom-tab" />
+            <Tab 
+              key={index} 
+              label={label} 
+              className="custom-tab"
+              disableRipple
+            />
           ))}
         </Tabs>
       ) : (

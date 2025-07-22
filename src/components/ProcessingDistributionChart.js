@@ -10,7 +10,7 @@ export default function ProcessingDistributionChart({ metrics }) {
   const data = metrics?.processing_distribution || [];
 
   const renderCustomLabel = ({ cx, cy, midAngle, outerRadius, percent, index }) => {
-    const radius = outerRadius + 3;
+    const radius = outerRadius +9;
     const x = cx + radius * Math.cos(-midAngle * RADIAN);
     const y = cy + radius * Math.sin(-midAngle * RADIAN);
     return (

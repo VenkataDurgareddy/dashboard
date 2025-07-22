@@ -1,81 +1,119 @@
+/* Container styling */
 .tabs-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #f9fafb;
   padding: 0 16px;
   box-sizing: border-box;
+  background: #f8fafc;
+  border-radius: 12px;
+  margin-bottom: 24px;
 }
+
+/* Mobile dropdown styling */
 .tabs-dropdown {
   width: 100%;
-  padding: 10px 14px;
+  padding: 12px 16px;
   font-size: 1rem;
-  border-radius: 8px;
-  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
   background-color: #fff;
-  color: #111827;
+  color: #334155;
   appearance: none;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   font-family: inherit;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  outline: none;
+  cursor: pointer;
 }
 
-/* Optional custom arrow icon */
+.tabs-dropdown:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* Custom dropdown arrow */
 .tabs-dropdown {
-  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23646a7a' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
   background-repeat: no-repeat;
-  background-position: right 10px center;
-  background-size: 16px 16px;
+  background-position: right 12px center;
 }
 
-/* Tabs Wrapper */
+/* Desktop tabs container */
 .custom-tabs {
   width: 100%;
-  max-width: 100%;
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
-  background-color: #f9fafb;
-  border-radius: 12px;
-  min-height: 44px;
-  overflow-x: auto;
-  scrollbar-width: none; /* Firefox */
+  background: transparent;
+  min-height: 48px;
+  position: relative;
+  padding: 4px;
+  gap: 8px;
 }
 
-/* Hide scrollbar in WebKit browsers */
-.custom-tabs::-webkit-scrollbar {
-  display: none;
-}
-
-/* Individual tab */
+/* Individual tab styling */
 .custom-tab {
-  text-transform: none !important; /* Preserve camelCase labels */
+  text-transform: none !important;
   font-weight: 500;
-  min-height: 44px;
+  min-height: 40px;
+  color: #64748b;
+  padding: 8px 16px;
+  transition: all 0.2s ease-out;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  border: none;
+  font-size: 0.95rem;
   flex: 1;
   max-width: 200px;
+  cursor: pointer;
   white-space: nowrap;
-  color: #4b5563;
-  padding: 6px 12px;
-  transition: background-color 0.3s ease;
-  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Selected tab style */
+/* Hover effects */
+.custom-tab:hover:not(.Mui-selected) {
+  color: #475569;
+  background: rgba(226, 232, 240, 0.4);
+}
+
+/* Selected tab styling */
 .custom-tab.Mui-selected {
-  background-color: #f0f0f0;
   font-weight: 600;
-  color: #111827;
-  border-radius: 8px;
+  color: #1e293b;
 }
 
-/* Responsive handling */
-@media (max-width: 768px) {
-  .custom-tabs {
-    gap: 8px;
-  }
+/* Active tab indicator */
+.custom-tabs .Mui-selected {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
 
+/* Responsive adjustments */
+@media (max-width: 1024px) {
   .custom-tab {
-    flex: 0 0 auto;
-    max-width: unset;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabs-container {
+    padding: 0 8px;
+    background: transparent;
+  }
+  
+  .tabs-dropdown {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .tabs-dropdown {
+    font-size: 0.9rem;
   }
 }

@@ -1,27 +1,51 @@
 import React from "react";
 import "../styles/stats_card.css";
-
+import { Activity, RefreshCw, Clock, CheckCircle, TrendingUp } from "lucide-react";
 export default function StatsCards({ metrics }) {
-  if (!metrics || !metrics.stats) {
-    return null; // or show loading spinner
+  const defaultStats = [
+    { label: "Total Processed", key: "total_processed", icon: <Activity size={22} color="black" /> },
+    { label: "Success Rate", bar: true, key: "success_rate", icon: <RefreshCw size={22} color="black" /> },
+    { label: "Avg Processing Time", key: "avg_processing_time", icon: <Clock size={22} color="black" /> },
+    { label: "System Health", key: "system_health", success: true, icon: <CheckCircle size={22} color="black" /> },
+  ];
+
+  const dataMap = {};
+  if (metrics && metrics.stats) {
+    metrics.stats.forEach((item) => {
+      dataMap[item.label] = item;
+    });
   }
 
   return (
     <div className="stats-grid">
-      {metrics.stats.map((stat, index) => (
-        <div className="stat-card" key={index}>
-          <div className="stat-label">{stat.label}</div>
+      {defaultStats.map((stat, index) => {
+        const item = dataMap[stat.label];
+        const isLoading = !item;
 
-          <div className={`stat-value ${stat.success ? "success" : ""}`}>
-            {stat.icon && <span className="stat-icon">{stat.icon}</span>}
-            {stat.value}
+        return (
+          <div className="stat-card" key={index}>
+            <div className="stat-label">{stat.label}</div>
+            <div className="stat-icon-top">{stat.icon}</div>
+            <div className={`stat-value ${item?.success ? "success" : ""}`}>
+              {item?.icon && <span className="stat-icon">{item.icon}</span>}
+              {isLoading ? (
+                <div className="spinner small" /> // Customize spinner CSS
+              ) : (
+                item.value
+              )}
+            </div>
+
+            {stat.bar && (item ? <div className="stat-bar"></div> : <div className="stat-bar placeholder" />)}
+
+            {item?.sub && <div className="stat-sub">
+              {/* {(item.sub.includes("1h") || item.sub.includes("24h") || item.sub.includes("7d")) && (
+                <TrendingUp className="stat-sub-icon" size={16} color="#10b981" />
+              )} */}
+              {item.sub}
+            </div>}
           </div>
-
-          {stat.bar && <div className="stat-bar"></div>}
-
-          {stat.sub && <div className="stat-sub">{stat.sub}</div>}
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

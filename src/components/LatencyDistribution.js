@@ -1,51 +1,82 @@
-import React, { useEffect, useState } from "react";
-import { Card, CardContent, Typography } from "@mui/material";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from "recharts";
+import React from "react";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Cell,
+} from "recharts";
+import {
+  Card,
+  CardContent,
+  Typography,
+  Box,
+  CircularProgress,
+} from "@mui/material";
 
-export default function LatencyDistribution({ selectedPeriod }) {
-  const [latencyData, setLatencyData] = useState([]);
+export default function LatencyDistribution({ metrics }) {
+  // Format incoming data
+  const latencyData = Array.isArray(metrics)
+    ? metrics.map((value, index) => ({
+        time: `${index}:00`,
+        latency: value,
+      }))
+    : [];
 
-  useEffect(() => {
-    fetch(`https://007276ec2083.ngrok-free.app/api/stats?period=${selectedPeriod}`, {
-      headers: {
-        "ngrok-skip-browser-warning": "true",
-        "Content-Type": "application/json",
-      },
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        const raw = data.latency_distribution || [];
-        const formatted = raw.map((latency, hour) => ({
-          time: `${String(hour).padStart(2, "0")}:00`,
-          latency,
-        }));
-        setLatencyData(formatted);
-      })
-      .catch((err) => console.error("Failed to fetch latency distribution:", err));
-  }, [selectedPeriod]);
+  const isAllZero =
+    latencyData.length > 0 &&
+    latencyData.every((item) => item.latency === 0);
+
+  const isLoading = metrics === undefined;
 
   return (
-    <Card sx={{ flex: 1, minWidth: 350 }}>
+    <Card sx={{ flex: 1, minWidth: 300 ,height:345}}>
       <CardContent>
         <Typography variant="h6" fontWeight={700}>
           Latency Distribution
         </Typography>
-        <Typography variant="caption" color="text.secondary">
+        <Typography variant="caption" color="text.secondary" mb={2}>
           Average processing time by hour
         </Typography>
-        <BarChart width={350} height={200} data={latencyData}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis 
-            dataKey="time" 
-            interval={0} 
-            angle={-45} 
-            textAnchor="end" 
-            height={60}
-          />
-          <YAxis />
-          <Tooltip />
-          <Bar dataKey="latency" fill="#3f51b5" />
-        </BarChart>
+
+        {isLoading ? (
+          <Box display="flex" justifyContent="center" alignItems="center" height={200}>
+            <CircularProgress size={30} />
+          </Box>
+        ) : isAllZero ? (
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            align="center"
+            mt={2}
+          >
+            No latency data available for the selected period.
+          </Typography>
+        ) : (
+          <ResponsiveContainer width="100%" height={250}>
+            <BarChart data={latencyData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="time" />
+              <YAxis />
+              <Tooltip />
+              <Bar
+                dataKey="latency"
+                isAnimationActive
+                animationDuration={800}
+              >
+                {latencyData.map((entry, index) => (
+                  <Cell
+                    key={`cell-${index}`}
+                    fill={entry.latency > 100 ? "#f43f5e" : "#3b82f6"}
+                  />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        )}
       </CardContent>
     </Card>
   );

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   Box,
   Typography,
@@ -11,7 +11,7 @@ import {
   Paper,
   Chip,
   LinearProgress,
-  CircularProgress
+  CircularProgress,
 } from "@mui/material";
 
 const statusColors = {
@@ -21,43 +21,8 @@ const statusColors = {
   failed: { label: "Failed", color: "error" },
 };
 
-const ProcessingQueue = ({selectedPeriod}) => {
-  const [loading, setLoading] = useState(true);
-  const [queueSummary, setQueueSummary] = useState({
-    pending: 0,
-    processing: 0,
-    completed: 0,
-    failed: 0
-  });
-  const [jobTable, setJobTable] = useState([]);
-
-  useEffect(() => {
-  setLoading(true); // Important: reset loading when fetching new data
-  fetch(`https://007276ec2083.ngrok-free.app/api/stats?period=${selectedPeriod}`, {
-    headers: {
-      "ngrok-skip-browser-warning": "true",
-      "Content-Type": "application/json"
-    },
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      setJobTable(data.job_table || []);
-      setQueueSummary(data.queue_summary || {
-        pending: 0,
-        processing: 0,
-        completed: 0,
-        failed: 0
-      });
-      setLoading(false); // ✅ Stop showing spinner
-    })
-    .catch((err) => {
-      console.error("Failed to load metrics:", err);
-      setLoading(false);
-    });
-}, [selectedPeriod]);
-
-
-  if (loading) {
+const ProcessingQueue = ({ metrics }) => {
+  if (!metrics) {
     return (
       <Box mt={4} display="flex" justifyContent="center">
         <CircularProgress />
@@ -65,7 +30,17 @@ const ProcessingQueue = ({selectedPeriod}) => {
     );
   }
 
-  const getStatusColor = (status) => statusColors[status] || { label: status, color: "default" };
+  const queueSummary = metrics.queue_summary || {
+    pending: 0,
+    processing: 0,
+    completed: 0,
+    failed: 0,
+  };
+
+  const jobTable = metrics.job_table || [];
+
+  const getStatusColor = (status) =>
+    statusColors[status] || { label: status, color: "default" };
 
   return (
     <Box mt={4}>
@@ -78,10 +53,30 @@ const ProcessingQueue = ({selectedPeriod}) => {
 
       {/* Summary Cards */}
       <Box display="flex" gap={2} mt={2} mb={3} flexWrap="wrap">
-        <SummaryCard label="Pending" value={queueSummary.pending} bg="#eef2ff" color="primary" />
-        <SummaryCard label="Processing" value={queueSummary.processing} bg="#fefce8" color="warning.main" />
-        <SummaryCard label="Completed" value={queueSummary.completed} bg="#ecfdf5" color="success.main" />
-        <SummaryCard label="Failed" value={queueSummary.failed} bg="#fef2f2" color="error.main" />
+        <SummaryCard
+          label="Pending"
+          value={queueSummary.pending}
+          bg="#eef2ff"
+          color="primary"
+        />
+        <SummaryCard
+          label="Processing"
+          value={queueSummary.processing}
+          bg="#fefce8"
+          color="warning.main"
+        />
+        <SummaryCard
+          label="Completed"
+          value={queueSummary.completed}
+          bg="#ecfdf5"
+          color="success.main"
+        />
+        <SummaryCard
+          label="Failed"
+          value={queueSummary.failed}
+          bg="#fef2f2"
+          color="error.main"
+        />
       </Box>
 
       {/* Table */}
@@ -89,11 +84,21 @@ const ProcessingQueue = ({selectedPeriod}) => {
         <Table size="small">
           <TableHead>
             <TableRow>
-              <TableCell><strong>Job ID</strong></TableCell>
-              <TableCell><strong>Type</strong></TableCell>
-              <TableCell><strong>Status</strong></TableCell>
-              <TableCell><strong>Progress</strong></TableCell>
-              <TableCell><strong>Duration</strong></TableCell>
+              <TableCell>
+                <strong>Job ID</strong>
+              </TableCell>
+              <TableCell>
+                <strong>Type</strong>
+              </TableCell>
+              <TableCell>
+                <strong>Status</strong>
+              </TableCell>
+              <TableCell>
+                <strong>Progress</strong>
+              </TableCell>
+              <TableCell>
+                <strong>Duration</strong>
+              </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -146,8 +151,12 @@ const SummaryCard = ({ label, value, bg, color }) => (
     p={2}
     textAlign="center"
   >
-    <Typography variant="h6" sx={{ color }}>{value}</Typography>
-    <Typography variant="body2" color="textSecondary">{label}</Typography>
+    <Typography variant="h6" sx={{ color }}>
+      {value}
+    </Typography>
+    <Typography variant="body2" color="textSecondary">
+      {label}
+    </Typography>
   </Box>
 );
 

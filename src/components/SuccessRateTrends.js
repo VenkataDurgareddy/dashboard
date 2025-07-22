@@ -14,26 +14,31 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-export default function SuccessRateTrends({ selectedPeriod = "24h" }) {
+const COLORS = [
+  "#4caf50", "#aa0f0fff", "#ff9800", "#9c27b0", "#f44336", "#00bcd4", "#8bc34a"
+];
+
+export default function SuccessRateTrends({ metrics = [] }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(`https://007276ec2083.ngrok-free.app/api/stats?period=${selectedPeriod}`, {
-      headers: {
-        "ngrok-skip-browser-warning": "true",
-      },
-    })
-      .then((res) => res.json())
-      .then((json) => {
-        setData(json.success_rate_trends || []);
-      })
-      .catch((err) => {
-        console.error("Failed to fetch success rate trends:", err);
+    if (!metrics || metrics.length === 0) return;
+
+    const maxLength = Math.max(...metrics.map((m) => m.data.length));
+    const combinedData = Array.from({ length: maxLength }, (_, i) => {
+      const row = { time: `${i.toString().padStart(2, "0")}:00` };
+      metrics.forEach((trend) => {
+        row[trend.label] = trend.data[i] ?? 0;
       });
-  }, [selectedPeriod]);
+      return row;
+    });
+
+
+    setData(combinedData);
+  }, [metrics]);
 
   return (
-    <Card sx={{ flex: 1, minWidth: 350 }}>
+    <Card sx={{ flex: 1, minWidth: 200 }}>
       <CardContent>
         <Typography variant="h6" fontWeight={700}>
           Success Rate Trends
@@ -41,14 +46,21 @@ export default function SuccessRateTrends({ selectedPeriod = "24h" }) {
         <Typography variant="caption" color="text.secondary">
           Success rates by operation type over time
         </Typography>
-        <ResponsiveContainer width="100%" height={200}>
+        <ResponsiveContainer width="100%" height={250}>
           <LineChart data={data}>
             <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="time" />
+            <XAxis dataKey="time" interval={3} />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="success" stroke="#4caf50" />
-            <Line type="monotone" dataKey="error" stroke="#f44336" />
+            {metrics.map((trend, idx) => (
+              <Line
+                key={trend.label}
+                type="monotone"
+                dataKey={trend.label}
+                stroke={COLORS[idx % COLORS.length]}
+                strokeWidth={2}
+              />
+            ))}
           </LineChart>
         </ResponsiveContainer>
       </CardContent>

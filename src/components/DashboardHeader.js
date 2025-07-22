@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { RotateCcw, Download, Eye } from 'lucide-react';
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 import '../styles/dashboard_header.css';
 
-export default function DashboardHeader({ selectedPeriod, setSelectedPeriod }) {
+export default function DashboardHeader({ selectedPeriod, setSelectedPeriod, exportRef }) {
   const [isRotating, setIsRotating] = useState(false);
   const [lastRefreshTime, setLastRefreshTime] = useState(new Date());
   const [autoRefreshEnabled, setAutoRefreshEnabled] = useState(true);
@@ -18,7 +20,7 @@ export default function DashboardHeader({ selectedPeriod, setSelectedPeriod }) {
   const triggerRefresh = () => {
     setIsRotating(true);
     setLastRefreshTime(new Date());
-    // console.log("Data refreshed at:", new Date().toLocaleTimeString());
+    console.log("Data refreshed at:", new Date().toLocaleTimeString());
     setTimeout(() => setIsRotating(false), 500);
   };
 
@@ -30,9 +32,12 @@ export default function DashboardHeader({ selectedPeriod, setSelectedPeriod }) {
   };
 
   const handleExport = () => {
-    console.log(`Exporting report for ${selectedPeriod}`);
+    if (exportRef?.current) {
+      exportRef.current(); 
+    } else {
+      console.warn("Export function not available");
+    }
   };
-
   return (
     <header className="dashboard-header">
       <div className="header-container">
@@ -56,7 +61,7 @@ export default function DashboardHeader({ selectedPeriod, setSelectedPeriod }) {
 
           <select
             value={selectedPeriod}
-            onChange={(e) => setSelectedPeriod(e.target.value)}  
+            onChange={(e) => setSelectedPeriod(e.target.value)}
             className="period-select"
           >
             <option value="1h">Last 1 Hour</option>
