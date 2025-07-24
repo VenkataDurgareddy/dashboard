@@ -35,7 +35,20 @@ export default function StatsCards({ metrics }) {
               )}
             </div>
 
-            {stat.bar && (item ? <div className="stat-bar"></div> : <div className="stat-bar placeholder" />)}
+            {stat.key === "success_rate" ? (
+              item ? (
+                <div className="stat-bar">
+                  {parseFloat(item.value) > 0 ? (
+                    <div className="stat-bar-fill" style={{ width: item.value }}></div>
+                  ) : (
+                    <div className="stat-bar-fill empty" />
+                  )}
+                </div>
+              ) : (
+                <div className="stat-bar placeholder" />
+              )
+            ) : null}
+
 
             {item?.sub && <div className="stat-sub">
               {/* {(item.sub.includes("1h") || item.sub.includes("24h") || item.sub.includes("7d")) && (

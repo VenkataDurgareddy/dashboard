@@ -1,7 +1,18 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Stack } from "@mui/material";
+import { Users, Activity, CalendarDays,CalendarToday } from "lucide-react";
 
-const UserActivityCard = () => {
+const UserActivityCard = ({ metrics }) => {
+  const activeNow = metrics?.metrics?.active_users ?? 0;
+  const today = metrics?.summary_metrics?.completed_today ?? 0;
+  const thisWeek = metrics?.metrics?.total_jobs ?? 0;
+
+  const cardData = [
+    { label: "Active Now", value: activeNow, icon: <Activity size={18} color="#22c55e" /> }, // green
+    { label: "Today", value: today, icon: <CalendarDays size={18} color="#f97316" /> }, // orange
+    { label: "This Week", value: thisWeek, icon: <Users size={18} color="#3b82f6" /> }, // blue
+  ];
+
   return (
     <Box
       p={3}
@@ -9,20 +20,27 @@ const UserActivityCard = () => {
       borderRadius={2}
       boxShadow={1}
       flex={1}
-      minWidth={250}
+      minWidth={260}
     >
-      <Typography variant="h6" gutterBottom>User Activity</Typography>
-      <Typography variant="h4" fontWeight={700}>1,137</Typography>
-      <Box mt={2}>
-        <Typography variant="body2">Active Now</Typography>
-        <Typography fontWeight={500} mb={1}>1,247</Typography>
+      <Typography variant="h6" fontWeight={600} gutterBottom>
+        User Activity
+      </Typography>
 
-        <Typography variant="body2">Today</Typography>
-        <Typography fontWeight={500} mb={1}>5,432</Typography>
+      <Typography variant="h3" fontWeight={700} color="primary" mb={2}>
+        {thisWeek.toLocaleString()}
+      </Typography>
 
-        <Typography variant="body2">This Week</Typography>
-        <Typography fontWeight={500}>23,891</Typography>
-      </Box>
+      <Stack spacing={1.5}>
+        {cardData.map((item, index) => (
+          <Box key={index} display="flex" alignItems="center" justifyContent="space-between">
+            <Box display="flex" alignItems="center" gap={1}>
+              {item.icon}
+              <Typography variant="body2" color="text.secondary">{item.label}</Typography>
+            </Box>
+            <Typography fontWeight={600}>{item.value.toLocaleString()}</Typography>
+          </Box>
+        ))}
+      </Stack>
     </Box>
   );
 };

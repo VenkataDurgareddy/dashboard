@@ -62,6 +62,7 @@
 .alert-description {
   font-size: 0.875rem;
   color: #4b5563;
+  margin-top: 3px;
 }
 
 .alert-time {
@@ -155,4 +156,20 @@
   .alert-time {
     font-size: 0.8rem;
   }
+}
+.no-alerts {
+  background-color: #ecfdf5;
+  color: #047857;
+  font-weight: 500;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px dashed #34d399;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+.alert-icon {
+  font-size: 1.5rem !important;
+  color: #f59e0b;
 }

@@ -1,13 +1,30 @@
-
 import React, { useEffect, useState } from "react";
 import { Box, Typography, LinearProgress } from "@mui/material";
+import MemoryIcon from "@mui/icons-material/Memory";
+import StorageIcon from "@mui/icons-material/Storage";
+import DnsIcon from "@mui/icons-material/Dns";
+import SdStorageIcon from "@mui/icons-material/SdStorage";
+
+const iconMap = {
+  "CPU Usage": <MemoryIcon sx={{ color: "#fb923c" }} />,   // Orange
+  "Memory Usage": <StorageIcon sx={{ color: "#3b82f6" }} />, // Blue
+  "GPU Usage": <DnsIcon sx={{ color: "#10b981" }} />,       // Green
+  "Disk Usage": <SdStorageIcon sx={{ color: "#a855f7" }} /> // Purple
+};
+
+const colorMap = {
+  "CPU Usage": "#fb923c",
+  "Memory Usage": "#3b82f6",
+  "GPU Usage": "#10b981",
+  "Disk Usage": "#a855f7"
+};
 
 const SystemResourcesCard = () => {
   const [resources, setResources] = useState([
     { name: "CPU Usage", value: 0 },
     { name: "Memory Usage", value: 0 },
     { name: "GPU Usage", value: 0 },
-    { name: "Disk Usage", value: 0 },
+    { name: "Disk Usage", value: 0 }
   ]);
 
   const fetchResources = () => {
@@ -32,24 +49,46 @@ const SystemResourcesCard = () => {
   }, []);
 
   return (
-    <Box p={3} bgcolor="#fff" borderRadius={2} boxShadow={1} flex={1} minWidth={250}>
-      <Typography variant="h6" gutterBottom>System Resources</Typography>
+    <Box p={3}
+      bgcolor="white"
+      borderRadius={3}
+      boxShadow={3}
+      flex={1}
+      minWidth={320}
+      display="flex"
+      flexDirection="column"
+      sx={{
+        background: "linear-gradient(to bottom right, #f9fafb, #ffffff)",
+        transition: "box-shadow 0.3s",
+        "&:hover": { boxShadow: 5 },
+      }}>
+       <Box display="flex" alignItems="center" gap={1} mb={2}>
+        <MemoryIcon color="primary" />
+        <Typography variant="h6" fontWeight={600}>System Resources</Typography>
+      </Box>
       <Box mt={2}>
         {resources.map((r, i) => (
-          <Box key={i} mb={2}>
-            <Box display="flex" justifyContent="space-between">
-              <Typography variant="body2">{r.name}</Typography>
-              <Typography variant="body2">{r.value}%</Typography>
+          <Box key={i} mb={3}>
+            <Box display="flex" alignItems="center" justifyContent="space-between" mb={0.5}>
+              <Box display="flex" alignItems="center" gap={1}>
+                {iconMap[r.name]}
+                <Typography variant="body2" fontWeight={500}>
+                  {r.name}
+                </Typography>
+              </Box>
+              <Typography variant="body2" fontWeight={500}>
+                {r.value}%
+              </Typography>
             </Box>
             <LinearProgress
               variant="determinate"
               value={r.value}
               sx={{
                 height: 8,
-                borderRadius: 4,
-                backgroundColor: "#f3f4f6",
+                borderRadius: 5,
+                backgroundColor: "#e5e7eb",
                 "& .MuiLinearProgress-bar": {
-                  backgroundColor: r.value > 80 ? "#f87171" : "#3b82f6"
+                  backgroundColor: colorMap[r.name]
                 }
               }}
             />

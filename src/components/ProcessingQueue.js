@@ -15,10 +15,10 @@ import {
 } from "@mui/material";
 
 const statusColors = {
-  processing: { label: "Processing", color: "info" },
-  completed: { label: "Completed", color: "success" },
-  pending: { label: "Pending", color: "default" },
-  failed: { label: "Failed", color: "error" },
+  processing: { label: "Processing", color: "#0284c7", bg: "#e0f2fe" },
+  completed: { label: "Completed", color: "#16a34a", bg: "#dcfce7" },
+  pending: { label: "Pending", color: "#6b7280", bg: "#f3f4f6" },
+  failed: { label: "Failed", color: "#dc2626", bg: "#fee2e2" },
 };
 
 const ProcessingQueue = ({ metrics }) => {
@@ -40,11 +40,15 @@ const ProcessingQueue = ({ metrics }) => {
   const jobTable = metrics.job_table || [];
 
   const getStatusColor = (status) =>
-    statusColors[status] || { label: status, color: "default" };
+    statusColors[status] || {
+      label: status,
+      color: "#6b7280",
+      bg: "#f3f4f6",
+    };
 
   return (
     <Box mt={4}>
-      <Typography variant="h6" gutterBottom>
+      <Typography variant="h6" fontWeight="bold" gutterBottom>
         Processing Queue
       </Typography>
       <Typography variant="body2" color="textSecondary" gutterBottom>
@@ -56,49 +60,47 @@ const ProcessingQueue = ({ metrics }) => {
         <SummaryCard
           label="Pending"
           value={queueSummary.pending}
-          bg="#eef2ff"
-          color="primary"
+          bg="#e0e7ff"
+          color="#1e3a8a"
         />
         <SummaryCard
           label="Processing"
           value={queueSummary.processing}
-          bg="#fefce8"
-          color="warning.main"
+          bg="#fef3c7"
+          color="#92400e"
         />
         <SummaryCard
           label="Completed"
           value={queueSummary.completed}
-          bg="#ecfdf5"
-          color="success.main"
+          bg="#d1fae5"
+          color="#065f46"
         />
         <SummaryCard
           label="Failed"
           value={queueSummary.failed}
-          bg="#fef2f2"
-          color="error.main"
+          bg="#fecaca"
+          color="#7f1d1d"
         />
       </Box>
 
       {/* Table */}
-      <TableContainer component={Paper} elevation={1}>
+      <TableContainer
+        component={Paper}
+        elevation={3}
+        sx={{ borderRadius: 2, overflow: "hidden" }}
+      >
         <Table size="small">
-          <TableHead>
+          <TableHead sx={{ backgroundColor: "#f3f4f6" }}>
             <TableRow>
-              <TableCell>
-                <strong>Job ID</strong>
-              </TableCell>
-              <TableCell>
-                <strong>Type</strong>
-              </TableCell>
-              <TableCell>
-                <strong>Status</strong>
-              </TableCell>
-              <TableCell>
-                <strong>Progress</strong>
-              </TableCell>
-              <TableCell>
-                <strong>Duration</strong>
-              </TableCell>
+              {["Job ID", "Type", "Status", "Progress", "Duration"].map(
+                (heading, index) => (
+                  <TableCell key={index}>
+                    <Typography variant="body2" fontWeight="bold">
+                      {heading}
+                    </Typography>
+                  </TableCell>
+                )
+              )}
             </TableRow>
           </TableHead>
           <TableBody>
@@ -108,29 +110,54 @@ const ProcessingQueue = ({ metrics }) => {
               const statusData = getStatusColor(status);
 
               return (
-                <TableRow key={job.job_id}>
+                <TableRow
+                  key={job.job_id}
+                  hover
+                  sx={{ transition: "background 0.2s" }}
+                >
                   <TableCell>{job.job_id}</TableCell>
                   <TableCell>{job.type}</TableCell>
                   <TableCell>
                     <Chip
                       label={statusData.label}
-                      color={statusData.color}
                       size="small"
-                      variant="outlined"
+                      sx={{
+                        color: statusData.color,
+                        backgroundColor: statusData.bg,
+                        fontWeight: "bold",
+                      }}
                     />
                   </TableCell>
                   <TableCell>
                     <Box display="flex" alignItems="center" gap={1}>
                       <LinearProgress
-                        variant={progressValue > 0 ? "determinate" : "buffer"}
+                        variant={
+                          progressValue > 0 ? "determinate" : "buffer"
+                        }
                         value={progressValue}
-                        sx={{ width: "100px", height: 8, borderRadius: 4 }}
-                        color={status === "failed" ? "error" : "primary"}
+                        sx={{
+                          width: 100,
+                          height: 8,
+                          borderRadius: 5,
+                          backgroundColor: "#e5e7eb",
+                          "& .MuiLinearProgress-bar": {
+                            backgroundColor:
+                              status === "failed"
+                                ? "#dc2626"
+                                : progressValue > 95
+                                ? "#10b981"
+                                : "#3b82f6",
+                          },
+                        }}
                       />
-                      <Typography variant="body2">{job.progress}</Typography>
+                      <Typography variant="body2" minWidth={40}>
+                        {job.progress}
+                      </Typography>
                     </Box>
                   </TableCell>
-                  <TableCell>{job.duration}</TableCell>
+                  <TableCell>
+                    <Typography variant="body2">{job.duration}</Typography>
+                  </TableCell>
                 </TableRow>
               );
             })}
@@ -150,11 +177,16 @@ const SummaryCard = ({ label, value, bg, color }) => (
     borderRadius={2}
     p={2}
     textAlign="center"
+    boxShadow={1}
   >
-    <Typography variant="h6" sx={{ color }}>
+    <Typography variant="h5" fontWeight="bold" sx={{ color }}>
       {value}
     </Typography>
-    <Typography variant="body2" color="textSecondary">
+    <Typography
+      variant="body2"
+      color="black" 
+      sx={{ mt: 0.5 }}
+    >
       {label}
     </Typography>
   </Box>

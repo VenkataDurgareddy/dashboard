@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/activecard.css";
 import { Users, Database, Activity } from "lucide-react";
 
-export default function StatusCards({ metrics, queue_summary, cache_performance }) {
+export default function StatusCards({ metrics, queue_summary, cache_performance, summary_metrics }) {
   // Default values when data is missing
   const activeUsersData = metrics || {
     active_users: '--',
@@ -22,6 +22,11 @@ export default function StatusCards({ metrics, queue_summary, cache_performance 
     completed: '--'
   };
 
+  const summaryData = summary_metrics || {
+    peak_today: '--',
+    average: '--'
+  };
+
   return (
     <div className="status-cards-container">
       {/* Active Users - Always shown */}
@@ -33,10 +38,10 @@ export default function StatusCards({ metrics, queue_summary, cache_performance 
         <div className="card-value">{activeUsersData.active_users}</div>
         <div className="card-subtext">
           <div>
-            Peak Today <span className="card-subdata1">{activeUsersData.peak_today || '--'}</span>
+            Peak Today <span className="card-subdata1">{summaryData.peak_today}</span>
           </div>
           <div>
-            Average <span className="card-subdata2">{activeUsersData.average || '--'}</span>
+            Average <span className="card-subdata2">{summaryData.average}</span>
           </div>
         </div>
       </div>
@@ -76,7 +81,7 @@ export default function StatusCards({ metrics, queue_summary, cache_performance 
         </div>
         <div className="card-subtext row-split">
           <div>
-            Processing <span className="card-subdata">{queueData.processing || '--'}</span>
+            Processing <span className="card-subdata">{queueData.processing}</span>
           </div>
           <div>
             Completed Today <span className="card-subdata">{queueData.completed || '--'}</span>

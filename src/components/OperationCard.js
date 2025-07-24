@@ -30,6 +30,8 @@ export default function OperationCard({
   subtitle,
   count,
   successRate,
+  success,
+  failed,
 }) {
   const icon = iconMap[title];
 
@@ -37,8 +39,8 @@ export default function OperationCard({
     <Card
       elevation={0}
       sx={{
-        flex: "1 1 240px",          
-        minWidth: 240,               
+        flex: "1 1 240px",
+        minWidth: 240,
         maxWidth: "100%",
         borderRadius: "12px",
         border: "1px solid #e5e7eb",
@@ -59,7 +61,7 @@ export default function OperationCard({
           <Typography
             variant="body2"
             color="text.secondary"
-            sx={{ mb: 2, fontSize: "0.85rem" }}
+            sx={{ mb: 1.5, fontSize: "0.85rem" }}
           >
             {subtitle}
           </Typography>
@@ -69,6 +71,16 @@ export default function OperationCard({
         <Typography variant="h5" fontWeight={700} sx={{ mb: 1 }}>
           {(count ?? 0).toLocaleString()}
         </Typography>
+
+        {/* Success and Failed Stats */}
+        <Box display="flex" justifyContent="space-between" mb={1}>
+          <Typography variant="body2" color="green" fontWeight={500}>
+            Success: {success ?? 0}
+          </Typography>
+          <Typography variant="body2" color="error" fontWeight={500}>
+            Failed: {failed ?? 0}
+          </Typography>
+        </Box>
 
         {/* Success Rate Label */}
         <Box display="flex" alignItems="center" justifyContent="space-between">
