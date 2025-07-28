@@ -10,10 +10,10 @@ import {
 
 // Icon map for API types
 const apiIcons = {
-  face_liveness_api: <Camera size={16} color="#f43f5e" />,         // rose-500
-  face_verification_api: <ShieldCheck size={16} color="#10b981" />, // emerald-500
-  face_deduplication_api: <Users size={16} color="#f59e0b" />,      // amber-500
-  mrz_api: <ScanLine size={16} color="#6366f1" />,                 // indigo-500
+  face_liveness_api: <Camera size={16} color="#f43f5e" />,         
+  face_verification_api: <ShieldCheck size={16} color="#10b981" />, 
+  face_deduplication_api: <Users size={16} color="#f59e0b" />,      
+  mrz_api: <ScanLine size={16} color="#6366f1" />,                
 };
 
 // Color gradient map
@@ -64,7 +64,7 @@ const ApiUsageCard = ({ metrics }) => {
                   height: 8,
                   borderRadius: 4,
                   mt: 0.5,
-                  backgroundColor: "#e5e7eb", // Light gray background
+                  backgroundColor: "#e5e7eb", 
                   position: "relative",
                   overflow: "hidden",
                 }}
@@ -73,7 +73,7 @@ const ApiUsageCard = ({ metrics }) => {
                   sx={{
                     width: `${Math.min(api.count, 100)}%`,
                     height: "100%",
-                    backgroundColor: "#047857", // Teal green bar
+                    backgroundColor: "#047857", 
                     transition: "width 0.3s ease-in-out",
                   }}
                 />

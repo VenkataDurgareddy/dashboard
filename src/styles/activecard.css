@@ -110,6 +110,7 @@
 /* Small label spacing */
 .activespan {
   margin-left: 4px;
+  font-weight: bold;
 }
 
 /* Success percentage badge (optional) */

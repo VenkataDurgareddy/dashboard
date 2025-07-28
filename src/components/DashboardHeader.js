@@ -33,7 +33,7 @@ export default function DashboardHeader({ selectedPeriod, setSelectedPeriod, exp
 
   const handleExport = () => {
     if (exportRef?.current) {
-      exportRef.current(); 
+      exportRef.current();
     } else {
       console.warn("Export function not available");
     }
@@ -44,8 +44,13 @@ export default function DashboardHeader({ selectedPeriod, setSelectedPeriod, exp
         {/* Left Section */}
         <div className="title-section">
           <div className="icon-circle">
-            <Eye color="white" size={18} />
+            <img
+              src={require('../icons/logo.png')}
+              alt="Dashboard Icon"
+              style={{ width: 50, height: 50 ,marginTop:"3px"}}
+            />
           </div>
+
           <div className="title-text">
             <h1>Face Recognition Dashboard</h1>
             <p>Real-time monitoring and analytics</p>

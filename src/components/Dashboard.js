@@ -21,7 +21,7 @@ import ModelPerformanceCard from "./ModelPerformanceCard";
 import RequestVolume from "./RequestVolume";
 import Alert from "./alert";
 import HandleExport from "./HandleExport";
-
+import Footer from "./footer";
 export default function Dashboard() {
   const [tab, setTab] = useState(0);
   const [metrics, setMetrics] = useState(null);
@@ -30,7 +30,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     const fetchMetrics = () => {
-      fetch(`https://76d3e27e2822.ngrok-free.app/api/stats?period=${selectedPeriod}`, {
+      fetch(`https://99d0fc5a99d0.ngrok-free.app/api/stats?period=${selectedPeriod}`, {
         headers: {
           "ngrok-skip-browser-warning": "true"
         }
@@ -45,17 +45,17 @@ export default function Dashboard() {
 
     fetchMetrics();
 
-    const intervalId = setInterval(fetchMetrics, 6000);
+    const intervalId = setInterval(fetchMetrics, 10000);
     return () => clearInterval(intervalId);
   }, [selectedPeriod]);
 
   return (
-    <Box p={4} maxWidth="1245px" mx="auto">
-
+    <Box p={4} maxWidth="1245px" mx="auto"> 
       <DashboardHeader
         selectedPeriod={selectedPeriod}
         setSelectedPeriod={setSelectedPeriod}
         exportRef={exportRef}
+        metrics={metrics}
       />
 
       <StatsCards metrics={metrics} />
@@ -190,7 +190,7 @@ export default function Dashboard() {
       {tab === 3 && (
         <Box mt={3} display="flex" gap={2} flexWrap="wrap">
           <UserActivityCard metrics={metrics} />
-          <ApiUsageCard metrics={metrics}/>
+          <ApiUsageCard metrics={metrics} />
         </Box>
       )}
 
@@ -207,8 +207,9 @@ export default function Dashboard() {
           <Alert />
         </Box>
       )}
-      <HandleExport exportRef={exportRef} metrics={metrics} />
+     <HandleExport exportRef={exportRef} metrics={metrics}  newmetrics= {metrics?.metrics || {}} stats={metrics?.stats || []} summary_metrics={metrics?.summary_metrics || {}}/>
 
+      <Footer/>
 
     </Box>
   );
